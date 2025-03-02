@@ -1,0 +1,213 @@
+.upload-img-box {
+    border: 1px solid rgba(72, 74, 84, 0.26);
+    border-radius: 6px;
+    position: relative;
+
+    .box-close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .btn {
+        color: #495057;
+        min-width: 200px;
+
+        // &.btn-secondary {
+        //     background-color: #DDDDDD !important;
+        //     border: 1px solid #DDDDDD !important;
+        // }
+    }
+
+    p {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+
+        .text-danger {
+            color: #FB3E56 !important;
+        }
+    }
+}
+
+.preview-img {
+    padding: 0 10px;
+    max-height: 120px;
+    object-fit: cover;
+}
+
+.upload-typography {
+    background: #FFFFFF;
+    border: 1px solid rgba(72, 74, 84, 0.26);
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 30px;
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
+        input[type="color"] {
+            width: 75px;
+            height: 36px;
+            min-height: auto !important;
+            padding: 6px;
+            border-radius: 2px;
+            background-color: #DCDCDC;
+        }
+    }
+}
+
+.card.email-preview-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34px rgb(0 0 0 / 42%) !important;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-between;
+        max-width: 450px;
+        margin: 0 auto;
+
+        p {
+            margin-block: 20px;
+        }
+    }
+}
+
+.notification-preview {
+    background: #D7974C;
+    border-radius: 10px;
+    padding: 20px;
+
+    p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .btn-white {
+        background-color: #fff !important;
+        color: #495057 !important;
+    }
+}
+
+.prevention-wrapper {
+    margin-bottom: 25px;
+
+    .prevention-block {
+        display: flex;
+        gap: 12px;
+
+        .msg-title{
+            color: #6C757D
+        }
+    }
+
+    .reminder-block {
+        padding-left: 55px;
+    }
+}
+
+// @media only screen and (min-width:1200px) and (max-width:1440px){
+//     .form-label{
+//         font-size: 13px !important;
+//     }  
+// }
+
+
+@media only screen and (max-width:1199px) {
+    .upload-img-box .box-close {
+        right: 10px;
+        top: 10px;
+    }
+
+    .card.email-preview-card {
+        .card-body {
+            min-height: 300px;
+            padding: 30px !important;
+        }
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .upload-img-box .btn {
+        min-width: 150px;
+    }
+
+    .upload-typography {
+        margin-bottom: 15px;
+    }
+
+    .card.email-preview-card {
+        min-height: 250px !important;
+
+        .card-body {
+            max-width: 360px;
+        }
+    }
+
+    .notification-preview p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .prevention-container {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .upload-img-box p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .card.email-preview-card {
+        .card-body {
+            max-width: 100%;
+        }
+    }
+
+    .prevention-wrapper p,
+    .prevention-wrapper label {
+        font-size: 12px !important;
+        line-height: 16px;
+    }
+
+    .prevention-wrapper {
+        margin-bottom: 15px;
+    }
+
+    .reminder-content {
+        p {
+            margin-top: 6px;
+        }
+        .btn.btn-sm{
+            font-size: 12px !important;
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .prevention-container {
+        padding-left: 10px;
+    }
+    .prevention-wrapper .reminder-block {
+        padding-left: 0px !important;
+    }
+}

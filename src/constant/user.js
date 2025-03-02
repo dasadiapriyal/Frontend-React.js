@@ -1,0 +1,13 @@
+export const ACCOUNT_TYPES = {
+   VBO: 1,
+   AFFILIATE: 2,
+   DIGITAL_PARTNER: 3,
+   RETAIL_CUSTOMER: 4,
+}
+
+export const ACCOUNT_TYPE_DISPLAY = [
+   ACCOUNT_TYPES.VBO = "VBO",
+   ACCOUNT_TYPES.AFFILIATE = "Affiliate",
+   ACCOUNT_TYPES.DIGITAL_PARTNER = "Digital Partner",
+   ACCOUNT_TYPES.RETAIL_CUSTOMER = "Retail Customer",
+]

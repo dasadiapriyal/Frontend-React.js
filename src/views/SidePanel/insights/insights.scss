@@ -1,0 +1,445 @@
+.insights-block .card {
+  background: #ffffff;
+  border-radius: 10px;
+
+  .card-header {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700 !important;
+    color: #1b2124;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    canvas {
+      max-height: 130px !important;
+      max-width: 305px !important;
+      margin: 0 auto;
+    }
+  }
+}
+
+.grey-dark-text {
+  h5 {
+    font-weight: 700 !important;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 0;
+    color: #495057;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 35px;
+    color: #6c757d;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+ul.inline-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+
+  li {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    h5 {
+      font-size: 20px;
+      line-height: 26px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #495057;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.moniter-card {
+  .moniter-box {
+    h6 {
+      font-weight: 700 !important;
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    p {
+      font-size: 16px !important;
+      margin-bottom: 8px;
+      line-height: 20px !important;
+      color: #8d9091 !important;
+      font-family: "Rubik", sans-serif;
+    }
+
+    span {
+      font-size: 16px;
+      font-family: "Rubik", sans-serif;
+    }
+  }
+}
+
+.protection-card .moniter-box {
+  position: relative;
+  padding: 0 10px;
+
+  &:not(:last-child) {
+    &:before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 1px;
+      background-color: #d2d2d2;
+      right: 0px;
+      top: 0;
+    }
+  }
+}
+
+.protection-icon {
+  position: absolute;
+  bottom: -3px;
+  height: auto;
+  width: auto;
+  line-height: initial;
+  right: -3px !important;
+}
+
+.health-inspector-card {
+  .card-body {
+    ul {
+      flex: 100%;
+
+      li {
+        background: none;
+        box-shadow: none;
+        border-radius: unset;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        h4 {
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 700 !important;
+          margin-bottom: 0;
+        }
+
+        p {
+          font-size: 24px;
+          color: #1b2124;
+          line-height: 30px;
+          font-family: "Rubik", sans-serif;
+        }
+
+        .badge {
+          font-size: 17px;
+          font-weight: normal;
+          line-height: 1;
+          margin-top: 10px;
+          padding: 7px 40px;
+          font-family: "Rubik", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+.protection-metrics-block {
+  ul.inline-list {
+    li {
+      h5 {
+        font-size: 20px;
+        line-height: 24px;
+        color: #495057;
+      }
+    }
+  }
+}
+
+.revenue-card {
+  .card-body {
+    ul {
+      flex: 100%;
+      width: 100%;
+
+      li {
+        h5 {
+          font-size: 22px;
+          line-height: 26px;
+          color: #1b2124;
+        }
+      }
+    }
+
+    p {
+      font-size: 20px !important;
+      line-height: 30px !important;
+      font-weight: 500;
+      color: #8d9091 !important;
+    }
+  }
+}
+
+.revenue-card {
+  .card-body {
+    ul {
+      li {
+        p {
+          font-size: 18px !important;
+          font-weight: 400;
+          font-family: "Rubik", sans-serif;
+          color: #6c757d !important;
+        }
+      }
+    }
+  }
+}
+
+.wallet-list li {
+  padding: 10px 0px !important;
+
+  &:last-child {
+    padding-bottom: 0px !important;
+  }
+
+  h6 {
+    display: inline-block;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    color: #8d9091;
+    margin-bottom: 0;
+
+    .bullet {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+    }
+  }
+
+  span {
+    color: #8d9091;
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+.daysDropdown .select__control,
+.daysDropdown .select__control:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+
+  .select__single-value {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c757d;  }
+}
+
+.daysDropdown .select__menu,
+.react-select__menu {
+
+  .select__menu-list,
+  .react-select__menu-list {
+
+    .select__option,
+    .react-select__option {
+        font-size: 15px !important;    
+    }
+  }
+}
+
+.flagdropdown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+
+  .select__control, .select__control:hover {
+    background-color: transparent !important;
+  border-color: transparent !important;
+  }
+
+  .select__single-value {
+    font-size: 12px !important;  
+  }
+  .select__menu-list,
+  .react-select__menu-list .select__option,
+  .react-select__option {
+      font-size: 11px !important;    
+  }
+  
+  .select__value-container{
+    padding: 2px 0px;
+  }
+
+  .select__indicator{
+    padding: 5px 5px 5px 0px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .insights-block .card .card-body div p {
+    font-size: 14px !important;
+    line-height: 18px;
+  }
+
+  .insights-block .card.dash-card .card-body,
+  .moniter-card .card-body {
+    padding: 10px;
+  }
+
+  ul.inline-list {
+    li {
+      text-align: center;
+      display: inline-block;
+      padding: 8px !important;
+      margin: 5px !important;
+
+      h5 {
+        font-size: 14px !important;
+        line-height: 18px !important;
+      }
+    }
+  }
+
+  h2.section-title {
+    font-size: 20px !important;
+  }
+
+  .moniter-box {
+    h6 {
+      font-size: 16px !important;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    span {
+      font-size: 13px !important;
+    }
+
+    h1.fs-30 {
+      font-size: 22px !important;
+    }
+  }
+
+  .health-inspector-card {
+    .card-body {
+      ul {
+        li {
+          h4 {
+            font-size: 22px;
+            line-height: 1;
+          }
+
+          p {
+            font-size: 20px;
+          }
+
+          .badge {
+            font-size: 14px;
+            padding: 4px 20px;
+          }
+        }
+      }
+
+      .recharts-responsive-container{
+        height: 153px !important;
+        width: 100% !important; 
+      }
+    }
+  }
+
+  .revenue-card .card-body p {
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  .grey-dark-text {
+    h5 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .wallet-list li h6 {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .grey-dark-text h5 {
+    font-size: 20px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .wallet-list {
+    li {
+      h6 {
+        font-size: 14px !important;
+        line-height: 16px !important;
+      }
+    }
+
+    span {
+      font-size: 13px;
+    }
+  }
+
+  .revenue-card .card-body ul li p {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1290px) {
+  .health-inspector-card {
+    .card-body {
+      .recharts-responsive-container{
+        height: 153px !important;
+        width: 115% !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .protection-card .moniter-box:not(:last-child):before {
+    content: unset;
+  }
+}
+
+@media only screen and (max-width: 575px) {}

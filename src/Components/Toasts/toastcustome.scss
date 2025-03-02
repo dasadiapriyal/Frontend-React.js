@@ -1,0 +1,78 @@
+.Toastify__toast--success {
+    background-color: #e3fce4 !important;
+    color: #07bc0c;
+    background-image: url('../../assets/images/toast-success.svg') !important;
+    // background-image: url('../../../../assets/images/toast-success.svg') !important;
+
+}
+
+.Toastify__toast--error {
+    background: #fde0dd !important;
+    color: #e74c3c;
+    background-image: url('../../assets/images/toast-error.svg') !important;
+    // background-image: url('../../../../assets/images/toast-error.svg') !important;
+}
+
+.Toastify__toast--warning {
+    background: #fcf6e2 !important;
+    color: #f1c40f;
+    // background-image: url('../../../../assets/images/toast-warning.svg') !important;
+}
+
+.Toastify__toast--info {
+    background: #fff !important;
+    color: #3498db;
+    // background-image: url('../../../../assets/images/toast-info.svg') !important;
+}
+
+.Toastify__close-button {
+    color: #000 !important;
+    align-self: center !important;
+    margin-right: 10px;
+}
+
+.Toastify__toast {
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+    min-height: 50px !important;
+    text-align: left;
+    background-repeat: no-repeat !important;
+    background-position: 15px center !important;
+    background-size: 30px !important;
+    padding-left: 60px !important;
+}
+.Toastify__toast-container{
+    // min-width: 370px;
+    width: max-content !important;
+    max-width: 450px;
+    z-index: 9999991 !important;
+}
+.Toastify__toast-body{
+    margin-right: 20px !important;
+}
+.Toastify__progress-bar--info{
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 5px !important;
+    z-index: 9999 !important;
+    opacity: 0.7 !important;
+    background-color: rgba(28, 109, 184, 0.7) !important;
+    transform-origin: left !important;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .Toastify__toast-container{
+        max-width: 600px;
+    }
+    .Toastify__toast-container .Toastify__toast-body{
+        font-size: 20px;
+    }
+    .Toastify__close-button > svg{
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
